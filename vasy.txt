@@ -48,3 +48,24 @@ all logs:
 [2019-10-18 18:48:28.958] [21:48:28] Extension host agent started.
 [2019-10-18 18:48:28.986] WSL resolver response: 172.17.248.221:39019
 [2019-10-18 18:48:28.986] To debug connection issues, open a local browser on http://172.17.248.221:39019/version
+
+
+
+workaround: install vs code server manually
+
+Through the vs code output panel you can get the commit it, then you can download the tar file
+https://update.code.visualstudio.com/commit:<commit-id>/server-linux-x64/stable in your local machine
+copy the download file vscode-server-linux-x64.tar.gz to your remote server.
+make a direcotry .vscode-server/ in your home directory, for example
+mkdir -p ~/.vscode-server/f06011ac164ae4dc8e753a3fe7f9549844d15e35
+untar the vscode-server-linux-x64.tar.gz, you will get a folder vscode-server-linux-x64.
+move all files under vscode-server-linux-x64 to ~/.vscode-server/f06011ac164ae4dc8e753a3fe7f9549844d15e35
+Now you can connect to remote vs code server!
+
+Step 5 shoudl be to move it into ~/.vscode-server/bin/... Maybe that's only for insiders, but that worked for me.
+
+I only had problem with a script that vs code run afterwards, located in:
+C:\Users\<username>\AppData\Local\Temp\vscode-linux-multi-line-command-<remote-server-address>-XXXXXXXXX.sh
+So just copy it to the remote server and run it manually.
+
+Go to Remote-SSH: Settings and turn on Allow Local Server Download option.
