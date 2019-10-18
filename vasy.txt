@@ -1,1 +1,50 @@
-Hi gays !!!
+windows:
+Installing VS Code Server 6ab598523be7a800d7f3eb4d92d7ab9a66069390
+[2019-10-18 18:48:19.587] Using server tar available at /mnt/c/Users/user/AppData/Local/Temp/vscode-remote-wsl/6ab598523be7a800d7f3eb4d92d7ab9a66069390/vscode-server-linux-x64.tar.gz
+
+ubuntu:
+[2019-10-18 18:48:28.350] Starting server: /home/vash/.vscode-server/bin/6ab598523be7a800d7f3eb4d92d7ab9a66069390/server.sh  --port=0 --enable-remote-auto-shutdown 
+
+
+all logs:
+
+[2019-10-18 18:48:11.988] Starting VS Code Server inside WSL (Ubuntu-18.04)
+[2019-10-18 18:48:11.989] Extension version: 0.39.9, Windows build: 18922. Multi distro support: enabled. WSL path support: enabled
+[2019-10-18 18:48:12.800] Probing if server is already installed: C:\WINDOWS\System32\wsl.exe -d Ubuntu-18.04 -e sh -c "[ -d ~/.vscode-server/bin/6ab598523be7a800d7f3eb4d92d7ab9a66069390 ] && echo found || ([ -f /etc/alpine-release ] && echo alpine || echo x64)"
+[2019-10-18 18:48:13.554] No server install found in WSL, needs x64
+[2019-10-18 18:48:13.556] Downloading server on client side: C:\Users\user\AppData\Local\Temp\vscode-remote-wsl\6ab598523be7a800d7f3eb4d92d7ab9a66069390\vscode-server-linux-x64.tar.gz
+[2019-10-18 18:48:18.764] Launching C:\WINDOWS\System32\wsl.exe -d Ubuntu-18.04 sh -c '"$VSCODE_WSL_EXT_LOCATION/scripts/wslServer.sh" 6ab598523be7a800d7f3eb4d92d7ab9a66069390 stable .vscode-server 0  ' in c:\Users\user\.vscode\extensions\ms-vscode-remote.remote-wsl-0.39.9
+[2019-10-18 18:48:19.285] Setting up server environment: Looking for /home/vash/.vscode-server/server-env-setup. Not found.
+[2019-10-18 18:48:19.587] WSL version: 4.19.43-microsoft-standard Ubuntu-18.04
+[2019-10-18 18:48:19.587] Updating server...
+[2019-10-18 18:48:19.587] Installing VS Code Server 6ab598523be7a800d7f3eb4d92d7ab9a66069390
+[2019-10-18 18:48:19.587] Using server tar available at /mnt/c/Users/user/AppData/Local/Temp/vscode-remote-wsl/6ab598523be7a800d7f3eb4d92d7ab9a66069390/vscode-server-linux-x64.tar.gz
+[2019-10-18 18:48:19.587] 100%
+[2019-10-18 18:48:19.587] Unpacking:   0%
+[2019-10-18 18:48:24.4 17%
+[2019-10-18 18:48:24.7 46%
+[2019-10-18 18:48:25.0 57%
+[2019-10-18 18:48:25.3 63%
+[2019-10-18 18:48:27.1 65%
+[2019-10-18 18:48:27.4 68%
+[2019-10-18 18:48:27.7 69%
+[2019-10-18 18:48:28.0 86%
+[2019-10-18 18:48:28.3100%
+[2019-10-18 18:48:28.350] Starting server: /home/vash/.vscode-server/bin/6ab598523be7a800d7f3eb4d92d7ab9a66069390/server.sh  --port=0 --enable-remote-auto-shutdown 
+[2019-10-18 18:48:28.957] 
+[2019-10-18 18:48:28.957] 
+[2019-10-18 18:48:28.957] *
+[2019-10-18 18:48:28.957] * Visual Studio Code Server
+[2019-10-18 18:48:28.957] *
+[2019-10-18 18:48:28.958] * Reminder: You may only use this software with Visual Studio family products,
+[2019-10-18 18:48:28.958] * as described in the license https://aka.ms/vscode-remote/license
+[2019-10-18 18:48:28.958] *
+[2019-10-18 18:48:28.958] 
+[2019-10-18 18:48:28.958] 
+[2019-10-18 18:48:28.958] IP Address: 172.17.248.221
+[2019-10-18 18:48:28.958] Extension host agent listening on 39019
+[2019-10-18 18:48:28.958] 
+[2019-10-18 18:48:28.958] 
+[2019-10-18 18:48:28.958] [21:48:28] Extension host agent started.
+[2019-10-18 18:48:28.986] WSL resolver response: 172.17.248.221:39019
+[2019-10-18 18:48:28.986] To debug connection issues, open a local browser on http://172.17.248.221:39019/version
